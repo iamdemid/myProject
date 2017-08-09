@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Портфолио</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <style>
+
+        body {
+            height: auto;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            width: 300px;
+            height: 300px;
+            margin: 50px;
+            text-align: center;
+            line-height: normal;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('https://unsplash.it/200') no-repeat;
+            background-size: cover;
+            opacity: .5;
+        }
+
+        .item:hover {
+            opacity: 1;
+            transition: 1s;
+        }
+
+        .header {
+            font-size: 30px;
+            text-align: center;
+            line-height: 50px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        img {
+            display: block;
+            border-radius: 100px;
+            position: relative;
+            left: 50%;
+            margin-left: -100px;
+            top: 50px;
+        }
+
+        a {
+            font-size: 25px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<img src="https://unsplash.it/200" alt="">
+
+<div class="header">
+    <h1>Ксения Демидкина</h1>
+    <h2>Человек и параход</h2>
+</div>
+
+<div class="wrapper">
+    <a href="what_i_can.html" class="item">Что я могу</a>
+    <a href="work.html" class="item">Где я работала</a>
+    <a href="examples.html" class="item">Как выглядят мои материалы</a>
+    <a href="extra.html" class="item">Что я еще умею</a>
+    <a href="education.html" class="item">Где я училась</a>
+    <a href="contacts.html" class="item">Как со мной связаться</a>
+</div>
+
+</body>
+
+</html>
